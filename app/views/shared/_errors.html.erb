@@ -4,7 +4,7 @@
       <span aria-hidden="true">&times;</span>
     </button>
 
-    <h4 class="alert-heading">The folling errors prohibited this article from being saved:</h4>
+    <h4 class="alert-heading">The folling errors prohibited this <%= obj.class.name.downcase %> from being saved:</h4>
 
     <ul>
       <% obj.errors.each do |error| %>
